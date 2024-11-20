@@ -107,7 +107,41 @@ body {
     font-size: 0.9em;
     color: #666;
 }
+.detalhescar{
+    margin-left: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 30pt;
+}
+.motore{
+    margin-left: 1em;
+    align-self: center;
+}
 
+.motor{
+    margin-left: 4em;
+    margin-right: 4em;
+
+    display: flex;
+    background: rgb(241, 241, 241);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-height: auto;
+ 
+}
+.motor ul{
+    margin-top: 50pt;
+    margin-left: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.motor img{
+    border-radius: 10px;
+    height: auto; 
+}
 /* Footer */
 .footer {
     background: #34d0ff;
@@ -115,4 +149,106 @@ body {
     text-align: center;
     padding: 20px 0;
     margin-top: 50px;
+}
+
+.kccar{
+    text-align: center;
+    font-size: 25pt;
+    padding: 50px 20px;
+}   
+.kccartxt{
+    text-align: center;
+    display: flex;
+    padding: 0 2em;
+}
+.estruturaas{
+    margin-left: 1em;
+    align-self: center;
+}
+
+.estrutura{
+    margin-top: 4em;
+    margin-left: 4em;
+    margin-right: 4em;
+    display: flex;  
+    background: rgb(241, 241, 241);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-height: auto;
+}
+.estrutura ul{
+    margin-top: 50pt;
+    margin-left: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.estrutura img{
+    border-radius: 10px;
+    height: auto; 
+}
+
+.conectivo{
+    margin-left: 1em;
+    align-self: center;
+}
+
+.conectividade{
+    margin-top: 4em;
+    margin-left: 4em;
+    margin-right: 4em;
+    display: flex; 
+    background: rgb(241, 241, 241);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-height: auto;
+}
+
+.conectividade ul{
+    margin-top: 50pt;
+    margin-left: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.conectividade img{
+    border-radius: 10px;
+    height: auto; 
+}
+.comp{
+    margin-top: 2em;
+    font-size: 2em;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.comp img{
+    margin-left: 50px ;
+    background: rgb(241, 241, 241);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-height: auto;
+}
+
+.comprar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-bottom: 2em;
+}
+
+.compe{
+    margin-top: 4em;
+    margin: auto;
+    background: #34d0ff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
 }
